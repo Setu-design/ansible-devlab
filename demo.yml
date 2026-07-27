@@ -1,0 +1,6 @@
+- name: Check Sample
+  hosts: all
+  tasks:
+    - name: Welcome to Ansible Testing
+      debug:
+        msg: "Hurrah, it works!"
